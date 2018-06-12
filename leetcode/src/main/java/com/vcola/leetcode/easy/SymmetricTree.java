@@ -1,6 +1,5 @@
 package com.vcola.leetcode.easy;
 
-
 /**
  * 101. 对称二叉树
  * 
@@ -9,35 +8,47 @@ package com.vcola.leetcode.easy;
  */
 public class SymmetricTree {
 
-    public boolean isSymmetric(TreeNode root) {
-        if(root == null){
-            return true;
-        }
-        
-        if(root.left == null && root.right != null){
-            return false;
-        }
-        
-        if(root.left != null && root.right == null){
-            return false;
-        }
-        
-        
-        
-        
-        
-        
-        return true;
-    }
+	public boolean isSymmetric(TreeNode root) {
+		if (root == null) {
+			return true;
+		}
 
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
+		return isSymmetric(root.left, root.right);
+	}
 
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-    
+	private boolean isSymmetric(TreeNode left, TreeNode right) {
+		if (left == null && right == null) {
+			return true;
+		}
+
+		if (left == null && right != null) {
+			return false;
+		}
+
+		if (left != null && right == null) {
+			return false;
+		}
+
+		if (left.val != right.val) {
+			return false;
+
+		}
+
+		if (!isSymmetric(left.left, right.right)) {
+			return false;
+		}
+
+		return isSymmetric(left.right, right.left);
+	}
+
+	public static class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+
+		TreeNode(int x) {
+			val = x;
+		}
+	}
+
 }
