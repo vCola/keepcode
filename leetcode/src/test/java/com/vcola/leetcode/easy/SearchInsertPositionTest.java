@@ -36,7 +36,4 @@ public class SearchInsertPositionTest {
 		Assert.assertEquals(3, searchInsertPosition.searchInsert(nums, target));
 	}
 	
-	
-	
-	
 }
