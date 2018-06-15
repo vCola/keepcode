@@ -51,15 +51,4 @@ public class SameTree {
         
         return isSameTree(p.right, q.right);
     }
-
-    public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
 }
