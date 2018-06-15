@@ -21,6 +21,7 @@ public class SearchInsertPositionTest {
 		Assert.assertEquals(1, searchInsertPosition.searchInsert(nums, target));
 	}
 	
+	
 	@Test
 	public void testSearchInsertNotHave01() {
 		int[] nums = {1,3,5,6};
