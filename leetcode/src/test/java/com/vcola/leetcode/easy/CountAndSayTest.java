@@ -11,5 +11,8 @@ public class CountAndSayTest {
 	public void testCountAndSay() {
 		Assert.assertEquals("111221", countAndSay.countAndSay(5));
 	}
+	
+	
+	
 
 }
