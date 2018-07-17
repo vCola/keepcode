@@ -3,7 +3,7 @@ package com.vcola.leetcode.easy;
 /**
  * 38. 报数
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月28日 上午9:07:28
  */
 public class CountAndSay {

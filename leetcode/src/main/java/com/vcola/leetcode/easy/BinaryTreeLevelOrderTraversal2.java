@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 107. 二叉树的层次遍历 II
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年6月13日 上午10:15:53
  */
 public class BinaryTreeLevelOrderTraversal2 {

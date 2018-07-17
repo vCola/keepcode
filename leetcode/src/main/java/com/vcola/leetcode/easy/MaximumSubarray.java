@@ -3,7 +3,7 @@ package com.vcola.leetcode.easy;
 /**
  * 53. 最大子序和
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月29日 上午8:46:11
  */
 public class MaximumSubarray {

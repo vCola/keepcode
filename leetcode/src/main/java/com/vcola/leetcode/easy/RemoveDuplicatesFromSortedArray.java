@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 26. 删除排序数组中的重复项
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月25日 上午9:28:03
  */
 public class RemoveDuplicatesFromSortedArray {

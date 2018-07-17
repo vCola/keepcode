@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 88. 合并两个有序数组
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年6月6日 上午9:14:29
  */
 public class MergeSortedArray {

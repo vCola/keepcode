@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 66. 加一
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月30日 上午9:16:10
  */
 public class PlusOne {

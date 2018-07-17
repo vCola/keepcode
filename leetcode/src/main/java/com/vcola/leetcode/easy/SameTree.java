@@ -4,7 +4,7 @@ package com.vcola.leetcode.easy;
 /**
  * 100. 相同的树
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年6月8日 上午9:04:30
  */
 public class SameTree {

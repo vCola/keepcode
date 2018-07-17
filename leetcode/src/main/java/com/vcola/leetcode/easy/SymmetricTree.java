@@ -3,7 +3,7 @@ package com.vcola.leetcode.easy;
 /**
  * 101. 对称二叉树
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年6月8日 上午9:20:29
  */
 public class SymmetricTree {

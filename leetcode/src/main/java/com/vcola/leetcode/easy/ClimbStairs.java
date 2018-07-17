@@ -3,7 +3,7 @@ package com.vcola.leetcode.easy;
 /**
  * 70. 爬楼梯
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年6月4日 上午8:51:58
  */
 public class ClimbStairs {

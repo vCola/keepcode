@@ -2,7 +2,7 @@ package com.vcola.leetcode.easy;
 
 /**
  * 104. 二叉树的最大深度
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年6月11日 上午9:24:45
  */
 public class MaximumDepthOfBinaryTree {

@@ -3,7 +3,7 @@ package com.vcola.leetcode.easy;
 /**
  * 67. 二进制求和
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月31日 上午9:15:10
  */
 public class AddBinary {

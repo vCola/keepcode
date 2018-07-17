@@ -2,7 +2,7 @@ package com.vcola.leetcode.easy;
 
 /**
  * 7. 反转整数
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月22日 上午9:29:54
  */
 public class ReverseInteger {

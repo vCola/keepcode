@@ -2,7 +2,7 @@ package com.vcola.leetcode.easy;
 
 /**
  * 1. 两数之和
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月22日 上午9:21:59
  */
 public class TwoSum {

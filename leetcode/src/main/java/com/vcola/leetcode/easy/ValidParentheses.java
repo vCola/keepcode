@@ -8,7 +8,7 @@ import java.util.Stack;
 /**
  * 20. 有效的括号
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月24日 上午9:03:30
  */
 public class ValidParentheses {

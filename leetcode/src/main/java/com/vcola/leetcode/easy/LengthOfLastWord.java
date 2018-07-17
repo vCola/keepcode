@@ -3,7 +3,7 @@ package com.vcola.leetcode.easy;
 /**
  * 58. 最后一个单词的长度
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月30日 上午8:58:12
  */
 public class LengthOfLastWord {

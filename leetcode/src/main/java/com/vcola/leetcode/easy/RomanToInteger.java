@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * 13. 罗马数字转整数
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月23日 上午9:15:52
  */
 public class RomanToInteger {

@@ -3,7 +3,7 @@ package com.vcola.leetcode.easy;
 /**
  * 14. 最长公共前缀
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月24日 上午8:41:16
  */
 public class LongestCommonPrefix {

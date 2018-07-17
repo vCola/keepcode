@@ -3,7 +3,7 @@ package com.vcola.leetcode.easy;
 /**
  * 69. x 的平方根
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年6月1日 上午9:03:19
  */
 public class Sqrt {

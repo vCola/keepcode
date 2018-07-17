@@ -2,7 +2,7 @@ package com.vcola.leetcode.easy;
 
 /**
  * 21. 合并两个有序链表
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月25日 上午8:57:16
  */
 public class MergeTwoSortedLists {

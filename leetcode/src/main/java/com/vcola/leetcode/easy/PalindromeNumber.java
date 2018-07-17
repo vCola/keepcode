@@ -2,7 +2,7 @@ package com.vcola.leetcode.easy;
 
 /**
  * 9. 回文数
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年5月23日 上午9:11:36
  */
 public class PalindromeNumber {

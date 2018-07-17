@@ -4,7 +4,7 @@ package com.vcola.leetcode.easy;
 /**
  * 83. 删除排序链表中的重复元素
  * 
- * @author liuhongjun
+ * @author Very Cola
  * @date 2018年6月6日 上午8:57:41
  */
 public class RemoveDuplicatesFromSortedList {
