@@ -10,4 +10,10 @@ public class TreeNode {
 		val = x;
 	}
 	
+	
+	public String bstToString() {
+		
+		return super.toString();
+	}
+	
 }
