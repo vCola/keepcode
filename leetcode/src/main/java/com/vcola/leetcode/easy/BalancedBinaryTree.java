@@ -14,28 +14,12 @@ public class BalancedBinaryTree {
 		if (root == null) {
 			return true;
 		}
-
-		return isBalancedRecursion(root);
-	}
-
-	private boolean isBalancedRecursion(TreeNode node) {
-		if(node == null){
-			return true;
-		}
 		
-		if (Math.abs(maxDepth(node.left, 0) - maxDepth(node.right, 0)) > 1) {
-			return false;
-		}
-
-		if (!isBalancedRecursion(node.left)) {
-			return false;
-		}
-
-		if (!isBalancedRecursion(node.right)) {
+		if (Math.abs(maxDepth(root.left, 0) - maxDepth(root.right, 0)) > 1) {
 			return false;
 		}
 		
-		return true;
+		return isBalanced(root.left) && isBalanced(root.right);
 	}
 
 	private int maxDepth(TreeNode node, int depth) {
