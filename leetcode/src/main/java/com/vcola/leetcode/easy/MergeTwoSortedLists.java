@@ -1,5 +1,7 @@
 package com.vcola.leetcode.easy;
 
+import com.vcola.leetcode.common.ListNode;
+
 /**
  * 21. 合并两个有序链表
  * @author Very Cola
@@ -91,19 +93,4 @@ public class MergeTwoSortedLists {
         System.out.println(sb.toString());
     }
     
-    
-    
-    
-    
-}
-
-
-
-
-
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
 }

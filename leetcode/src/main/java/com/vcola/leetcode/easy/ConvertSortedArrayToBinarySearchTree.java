@@ -1,5 +1,7 @@
 package com.vcola.leetcode.easy;
 
+import com.vcola.leetcode.common.TreeNode;
+
 /**
  * 108. 将有序数组转换为二叉搜索树
  * 

@@ -1,5 +1,7 @@
 package com.vcola.leetcode.easy;
 
+import com.vcola.leetcode.common.TreeNode;
+
 /**
  * 101. 对称二叉树
  * 

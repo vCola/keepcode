@@ -1,5 +1,6 @@
 package com.vcola.leetcode.easy;
 
+import com.vcola.leetcode.common.TreeNode;
 
 /**
  * 100. 相同的树
