@@ -35,7 +35,7 @@ public class ValidPalindrome {
 		}
 		
 		int mid = length / 2;
-		for(int i=0; i<=mid; i++){
+		for(int i=0; i<mid; i++){
 			if(!chars.get(i).equals(chars.get(length - 1 - i))){
 				return false;
 			}
@@ -45,7 +45,7 @@ public class ValidPalindrome {
 
 	
 	public static void main(String[] args) {
-		String s = "，。。 ";
+		String s = "aba ";
 		boolean result = new ValidPalindrome().isPalindrome(s);
 		System.out.println(result);
 	}
