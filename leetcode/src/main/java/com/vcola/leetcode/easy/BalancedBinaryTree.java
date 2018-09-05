@@ -1,6 +1,6 @@
 package com.vcola.leetcode.easy;
 
-import com.vcola.leetcode.easy.MaximumDepthOfBinaryTree.TreeNode;
+import com.vcola.leetcode.common.TreeNode;
 
 /**
  * 110. 平衡二叉树

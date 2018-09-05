@@ -52,7 +52,7 @@ public class TreeNode {
 		}
 		return build(vals, 0);
 	}
-
+	
 	private static TreeNode build(Integer[] vals, int index) {
 		if(index >= vals.length || vals[index] == null){
 			return null;

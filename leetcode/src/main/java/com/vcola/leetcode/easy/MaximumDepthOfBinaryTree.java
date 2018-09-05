@@ -1,5 +1,7 @@
 package com.vcola.leetcode.easy;
 
+import com.vcola.leetcode.common.TreeNode;
+
 /**
  * 104. 二叉树的最大深度
  * @author Very Cola
@@ -7,16 +9,6 @@ package com.vcola.leetcode.easy;
  */
 public class MaximumDepthOfBinaryTree {
 	
-	public static void main(String[] args) {
-		TreeNode root = new TreeNode(1);
-		TreeNode left1 = new TreeNode(2);
-		TreeNode left2 = new TreeNode(3);
-		root.left = left1;
-		left1.left = left2;
-		MaximumDepthOfBinaryTree maximumDepthOfBinaryTree = new MaximumDepthOfBinaryTree();
-		System.out.println(maximumDepthOfBinaryTree.maxDepth(root));
-	}
-    
     public int maxDepth(TreeNode root) {
         return maxDepth(root, 0);
     }
@@ -33,15 +25,13 @@ public class MaximumDepthOfBinaryTree {
 		return Math.max(maxLeftDepth, maxRightDepth);
 	}
 
-
-	public static class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
-
+    public static void main(String[] args) {
+		TreeNode root = new TreeNode(1);
+		TreeNode left1 = new TreeNode(2);
+		TreeNode left2 = new TreeNode(3);
+		root.left = left1;
+		left1.left = left2;
+		MaximumDepthOfBinaryTree maximumDepthOfBinaryTree = new MaximumDepthOfBinaryTree();
+		System.out.println(maximumDepthOfBinaryTree.maxDepth(root));
+	}
 }
