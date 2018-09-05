@@ -1,5 +1,6 @@
 package com.vcola.leetcode.easy;
 
+import com.vcola.leetcode.common.ListNode;
 
 /**
  * 83. 删除排序链表中的重复元素
@@ -31,11 +32,6 @@ public class RemoveDuplicatesFromSortedList {
     }
     
     
-    public static class ListNode {
-             int val;
-             ListNode next;
-             ListNode(int x) { val = x; }
-    }
     
     
     public static void main(String[] args) {

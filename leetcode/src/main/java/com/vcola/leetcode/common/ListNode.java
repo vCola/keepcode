@@ -11,6 +11,23 @@ public class ListNode {
 		next = null;
 	}
 
+	
+	public static ListNode valOf(int[] vals){
+		if(vals == null || vals.length == 0){
+			return null;
+		}
+		
+		ListNode root = new ListNode(vals[0]);
+		ListNode pre = root;
+		for(int i=1; i<vals.length; i++){
+			ListNode node = new ListNode(vals[i]);
+			pre.next = node;
+			pre = node;
+		}
+		return root;
+	}
+	
+	
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
