@@ -3,6 +3,8 @@ package com.vcola.leetcode.easy;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.vcola.leetcode.easy.seq01.SearchInsertPosition;
+
 public class SearchInsertPositionTest {
 
 	private SearchInsertPosition searchInsertPosition = new SearchInsertPosition(); 

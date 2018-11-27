@@ -3,6 +3,8 @@ package com.vcola.leetcode.easy;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.vcola.leetcode.easy.seq01.CountAndSay;
+
 public class CountAndSayTest {
 	
 	private CountAndSay countAndSay = new CountAndSay();
