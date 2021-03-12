@@ -6,12 +6,12 @@ import org.junit.Test;
 import com.vcola.leetcode.easy.seq01.CountAndSay;
 
 public class CountAndSayTest {
-	
-	private CountAndSay countAndSay = new CountAndSay();
 
-	@Test
-	public void testCountAndSay() {
-		Assert.assertEquals("111221", countAndSay.countAndSay(5));
-	}
+  private CountAndSay countAndSay = new CountAndSay();
+
+  @Test
+  public void testCountAndSay() {
+    Assert.assertEquals("111221", countAndSay.countAndSay(5));
+  }
 
 }

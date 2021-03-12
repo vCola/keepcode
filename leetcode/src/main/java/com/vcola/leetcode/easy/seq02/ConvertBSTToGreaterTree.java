@@ -16,7 +16,7 @@ public class ConvertBSTToGreaterTree {
   }
 
   private int sum(TreeNode node) {
-   return 0;
+    return 0;
   }
 
 }
