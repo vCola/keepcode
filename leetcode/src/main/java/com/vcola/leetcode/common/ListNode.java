@@ -11,15 +11,15 @@ public class ListNode {
     next = null;
   }
 
-  public static ListNode valOf(int[] vals) {
-    if (vals == null || vals.length == 0) {
+  public static ListNode of(int... values) {
+    if (values == null || values.length == 0) {
       return null;
     }
 
-    ListNode root = new ListNode(vals[0]);
+    ListNode root = new ListNode(values[0]);
     ListNode pre = root;
-    for (int i = 1; i < vals.length; i++) {
-      ListNode node = new ListNode(vals[i]);
+    for (int i = 1; i < values.length; i++) {
+      ListNode node = new ListNode(values[i]);
       pre.next = node;
       pre = node;
     }

@@ -69,7 +69,7 @@ public class PalindromeLinkedList {
   }
 
   public static void main(String[] args) {
-    ListNode head = ListNode.valOf(new int[] { 1, 2, 3, 4, 3, 2, 1, 5 });
+    ListNode head = ListNode.of(1, 2, 3, 4, 3, 2, 1, 5);
     PalindromeLinkedList palindromeLinkedList = new PalindromeLinkedList();
     System.out.println(palindromeLinkedList.isPalindrome(head));
   }

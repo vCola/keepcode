@@ -5,30 +5,29 @@ import com.vcola.leetcode.common.ListNode;
 public class InsertionSortList_147 {
 
   public ListNode insertionSortList(ListNode head) {
-    if (head == null || head.next == null) {
-      return head;
+    if (head == null) {
+      return null;
     }
-    ListNode next = head.next;
-    while (next != null) {
-      ListNode temp = head;
-      while (temp != next) {
-        if (next.val <= temp.val) {
-          // swap next and temp
-          ListNode tempNode = temp;
-
-
-
-          break;
+    ListNode waitInsertNode = head.next;
+    while (waitInsertNode != null) {
+      ListNode currentNode = head;
+      while (currentNode != waitInsertNode) {
+        if (waitInsertNode.val <= currentNode.val) {
+          // swap next.val and temp.val
+          int tempVal = waitInsertNode.val;
+          waitInsertNode.val = currentNode.val;
+          currentNode.val = tempVal;
         }
-        temp = temp.next;
-        next = next.next;
+        currentNode = currentNode.next;
       }
+
+      waitInsertNode = waitInsertNode.next;
     }
     return head;
   }
 
   public static void main(String[] args) {
-    ListNode head = ListNode.valOf(new int[] { 3, 4, 2 });
+    ListNode head = ListNode.of( 3, 4, 2, 0, 0, 13, 2323, 22323, 12);
     System.out.println(head);
     head = new InsertionSortList_147().insertionSortList(head);
     System.out.println(head);
